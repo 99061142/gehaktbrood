@@ -1,0 +1,77 @@
+/* Laat alles bovenaan de browser beginnen */
+main{
+	margin: 0 auto;
+	width: 640px;
+}
+
+/* De hele gehaktbrood pagina */
+div{
+	margin: 0 auto;
+}
+
+/* Hoofd titel*/
+h1{
+	font-size: 36px;
+	line-height: 36px;
+}
+
+/* Eerste paragraaf na de hoofd titel */
+.paragraaf1{
+	font-size: 24px;
+	line-height: 32px;
+}
+
+/* Alle titels behalve de hoofd titel */
+h2{
+	font-size: 32px;
+	line-height: 32px;
+}
+
+/* De unlisted items hebben een ruimte van 10 pixels tussen elk item */
+ul > li{
+	margin-top: 10px;
+}
+
+/* De listed items hebben een ruimte van 20 pixels tussen elk item */
+ol > li{
+	margin-top: 20px;
+}
+
+/* Maakt een ruimte tussen alle onderdelen */
+ul, ol, h1, h2, .paragraaf1, .tip-box{
+	margin-top: 40px;
+}
+
+/* Maakt alle teksten groter behalve de eerste paragraaf tekst */
+ul > li, ol > li, .tip-box{
+	font-size: 20px;
+	line-height: 26px;
+}
+
+/* Maakt De tip-box de juiste kleur */
+.tip-box{
+	background-color: #def6ed;
+	border-radius: 4px;
+	margin-left: 25px;
+}
+
+/* Weergeeft de knoppen helemaal bovenaan de browser */
+.pageChooserFixer{
+	padding: 0px; 
+	margin: 0%; /* Laat de balk en de knoppen helemaal bovenaan de browser beginnen */
+}
+
+/* Veranderd de grootte/positie van de knoppen */
+.pageChooser{
+	margin-top: 0%;
+	margin-right: 20px; /* Geeft de ruimte tussen de knoppen(rechts) 20px afstand */
+	padding: 10px; /* De grootte van de knoppen */
+	background-color: grey;
+	display:block; /* Laat de balk de volledige grootte van de buttons gebruiken als einde */
+	display: inline-block; /* Zet de knoppen in het midden van de balk */
+}
+
+/* Veranderd de grootte van het woord "tip" in de tip-balk */
+span{
+	font-size: 26px;
+}
