@@ -1,0 +1,94 @@
+/* De hele pagina */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+div{
+	width: 75%;
+	margin: 0 auto;
+}
+
+
+
+
+/* Titels/Teksten */
+
+/* Hoofd titel*/
+h1{
+	font-size: 36px;
+	line-height: 36px;
+}
+
+/* Alle titels behalve de hoofd titel */
+h2{
+	font-size: 32px;
+	line-height: 32px;
+	margin: 20px 0px;
+}
+
+/* Eerste paragraaf na de hoofd titel */
+p{
+	font-size: 24px;
+	line-height: 32px;
+}
+
+/* Alle andere teksten */
+
+ul > li, ol > li, .tip-box{
+	font-size: 20px;
+	line-height: 26px;
+}
+
+
+
+
+/* Menu voor de gerechten */
+
+.pageMenu li a{
+	text-decoration: none;
+	color: black;
+}
+
+.pageMenu li{
+	display: inline-block;
+	padding: 10px;
+	background-color: grey;
+	margin: 0px 10px;
+}
+
+.pageMenu{
+	text-align: center;
+}
+
+
+
+
+/* De spullen die je voor het gerecht nodig hebt, en de stappen hoe je het moet maken */
+
+/* Unlisted items */
+ul > li{
+	margin: 5px 0px;
+}
+
+/* Listed items */
+ol > li{
+	margin: 10px 0px;
+}
+
+
+
+
+/* Tip box */
+
+/* Maakt De tip-box de juiste kleur */
+.tip-box{
+	background-color: #def6ed;
+	border-radius: 4px;
+	padding-right: 25px;
+	display: inline-block;
+	padding: 5px;
+}
+
+/* Veranderd de grootte van het woord "tip" in de tip-balk */
+span{
+	font-size: 26px;
+}
